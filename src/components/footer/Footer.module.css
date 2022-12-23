@@ -1,0 +1,82 @@
+.cFooterWrapper {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.cFooterWrapper > hr {
+  height: 1px;
+  width: 100%;
+  border: none;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+.cFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.logo > img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.logo > span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 12rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  gap: 1rem;
+}
+
+.detail > span:nth-child(1) {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.pngLine {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pngLine > :nth-child(2) {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: black;
+  font-style: italic;
+}
+
+.pngLine > :nth-child(1) {
+  width: 25px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.copyRight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
